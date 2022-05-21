@@ -9,7 +9,7 @@
    Interface Invariants: 
     - A gridFlea object is not usable when inactive. The object becomes
     inactive when the number of moves exceeds the size of the grid.
-    - A jumpPrime object can be reactivated if and only if it is inactive but
+    - A gridFlea object can be reactivated if and only if it is inactive but
       not permanently inactive.
     - gridFlea stay in the previous position if the current position it need to move is out of bound
     - when x, y, size become encapsulated in a gridflea, the initial state of the gridflea 
